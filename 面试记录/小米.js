@@ -26,3 +26,12 @@
 // ]
 
 function myFun(data) { }
+var value = 1
+function far() {
+  console.log(value)
+}
+function bar() {
+  var value = 2
+  far()
+}
+bar()
