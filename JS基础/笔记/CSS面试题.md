@@ -55,3 +55,13 @@
    > 对于行内元素，可以使用`text-align`来实现水平居中，使用`line-light`或者`vertical-align`实现垂直居中
    >
    > 对于块级元素，可以使用`margin: 0 auto` 实现水平居中；使用`position+transfrom`实现水平垂直居中，可以使用`flex`布局或者`grid`布局
+   
+8. `CSS`属性值
+
+   > `initial`——设置元素`CSS`属性值为默认值
+   >
+   > `inherit`——设置元素`CSS`属性值为继承自父元素的值
+   >
+   > `unset`——如果属性值可以继承则继承自父元素；如果属性值不能继承则使用默认值，相当于`initial`和`inherit`
+   >
+   > `revert`——设置元素`CSS`属性值为浏览器默认样式
