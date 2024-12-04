@@ -41,3 +41,19 @@
    > 学习成本
    >
    > 需要编译
+   
+6. 伪元素选择器和伪类选择器区别
+
+   > 伪类选择器是为不同状态已存在的元素设置样式的一种CSS选择器，根据用户行为进行设置
+   >
+   > 伪元素选择器是添加不在文档流中的元素并设置样式
+
+   伪类选择器：
+
+   `:link`/`:visited`/`:hover`/`:active`/`:focus`/`:checked`/`:disabled`/`:empty`/`:first-child`/`:last-child`/`nth-child(n)`
+
+   伪元素选择器：
+
+   `::before`/`::after`/`::first-latter`/`::first-line`/`::selection`
+
+   
